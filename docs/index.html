@@ -38,7 +38,6 @@
 
     <nav>
         <a href="#awards"><i class="fa-solid fa-award"></i> Awards</a>
-        <a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a>
         <a href="#source"><i class="fa-solid fa-code"></i> Source</a>
     </nav>
 </header>
@@ -120,8 +119,8 @@
             <p>Wi-Fi & Humiditas Lux station connection settings</p>
             <pre>
                 <code class="language-cpp">
-    const char* SSID = "citywifi";              // Wi-Fi SSID
-    const char* PASSWORD = "password1234";      // Wi-Fi Password
+    const char* SSID = "wifi";                  // Wi-Fi SSID
+    const char* PASSWORD = "********";          // Wi-Fi Password
     const char* SERVER_IP = "192.168.X.X";      // Server IP address
     const int SERVER_PORT = 80;                 // Server hosting port
                 </code>
@@ -146,21 +145,6 @@
                 <a href="https://github.com/bokix01/humiditas-lux/" target="_blank">GitHub repository</a>
             </p>
         </div>
-    </section>
-
-    <section id="contact" data-aos="fade-in">
-        <form action="scripts/mail.php" method="POST">
-            <h2>Contact <i class="fa-solid fa-envelope"></i> (not working right now)</h2>
-            <div>
-                <input type="text" name="first_name" placeholder="First name" required>
-                <input type="text" name="last_name" placeholder="Last name" required>
-            </div>
-
-            <input type="email" name="email" placeholder="Contact email" required>
-            <textarea placeholder="Your message" name="message" rows="10" required></textarea>
-
-            <input type="submit">
-        </form>
     </section>
 </main>
 

@@ -41,30 +41,3 @@ pre code {
 .hljs-comment { color: #75715e; font-style: italic; }
 .hljs-number { color: #ae81ff; }
 .hljs-type { color: orange; }
-
-form {
-    display: flex;
-    flex-direction: column;
-    margin: 0 30%;
-}
-
-form h2 {
-    text-align: center;
-}
-
-form div {
-    display: flex;
-    justify-content: space-between;
-}
-
-form input, form textarea {
-    margin: 1em;
-    padding: 0.8em;
-    font-family: inherit;
-    min-width: calc(50% - 4em);
-}
-
-form input[type=submit] {
-    background-color: var(--primary-background-color);
-    border: none;
-}
